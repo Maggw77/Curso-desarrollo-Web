@@ -21,11 +21,19 @@ h1 {
     color: white;
 }
 
+.proyect {
+    border-color:#000000 ;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    
+}
 .proyec-details {
     width: 500px;
 }
 .proyect-imageconteiner{
     width: 500px;
+    
 }
 .hero {
     height: 500px;
