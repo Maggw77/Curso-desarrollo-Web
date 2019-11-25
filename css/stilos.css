@@ -1,7 +1,8 @@
 body {
     background: rgb(255, 247, 247);
     font-family: 'Source Sans Pro',sans-serif;
-    margin: 0px auto;
+    margin: 0px ;
+    padding: 0px;
 }
 
 h1,
@@ -23,12 +24,20 @@ h1 {
     margin: 0px;
 }
 
+
+.portfolio {
+    background:#fafafa;
+
+}
+
 .proyect {
-    border-color:#000000 ;
+    border-color: gray;
     border-width: 1px;
     border-style: solid;
     border-radius: 20px;
-    
+    margin: 10px 10px;
+    padding: 10px 10px;
+    background: white;
 }
 .proyec-details {
     width: 500px;
@@ -46,32 +55,40 @@ h1 {
     background-color:#1b2127 ;
 }
 .header {
-    background-color: black;
+    background: black;
     color: white;
     height: 170px;
-    margin: 0px auto;
-    margin-top: 0px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    
 }
 .header a {
     color:white;
     text-decoration: none;
-
 }
+.logo {
+    font-family: 'Fjalla One', sans-serif;
+}
+
 h1 strong {
     color: #026fff;
 }
 .experiencia {
-    border-color:#000000 ;
+    border-color: gray;
     border-width: 1px;
     border-style: solid;
     border-radius: 20px;
-    margin-top: 10px;
+    margin: 10px 10px;
+    padding: 10px 10px;
+
 }
 
 .escritorio {
-    border-color:#000000 ;
+    border-color: gray;
     border-width: 1px;
     border-style: solid;
     border-radius: 20px;
-    margin-top: 10px;
+    margin: 10px 10px;
+    padding: 10px 10px;
 }
