@@ -38,15 +38,13 @@ h1 {
     margin: 10px 10px;
     padding: 10px 10px;
     background: white;
+    display: flex;
 }
 .proyec-details {
     width: 500px;
 }
-.proyect-imageconteiner{
-    width: 400px;
-    display: flex;
-    
-}
+
+
 .hero {
     height: 500px;
     background-image: url('../imagenes/hero.png') ;
@@ -58,19 +56,50 @@ h1 {
 .header {
     background: black;
     color: white;
-    height: 150px;
+    height: 100px;
     margin: 0px;
-    padding: 0px;
+    padding-bottom: 3px;
     display: flex;
-    
+    align-items: center;
+    justify-content: space-between;
+  
 }
+
 .header a {
     color:white;
     text-decoration: none;
+    display: flex;
+    padding: 0px 10px;
 }
-.logo {
-    font-family: 'Fjalla One', sans-serif;
+
+ol,
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    justify-content: right;
+    height: inherit;
+    text-align: right;
 }
+.header ol{
+    display: flex;
+    align-items: center;
+    
+}
+.header ol li {
+    justify-content: space-between;
+   
+}
+figure {
+    margin: 0px;
+    padding: 0px;
+}
+.menu {
+    height: inherit;
+}
+
+
+
 
 h1 strong {
     color: #026fff;
