@@ -1,6 +1,7 @@
 body {
     background: rgb(255, 247, 247);
     font-family: 'Source Sans Pro',sans-serif;
+    margin: 0px auto;
 }
 
 h1,
@@ -19,6 +20,7 @@ h1 {
     font-size: 40px;
     letter-spacing: -.2px;
     color: white;
+    margin: 0px;
 }
 
 .proyect {
@@ -46,6 +48,9 @@ h1 {
 .header {
     background-color: black;
     color: white;
+    height: 170px;
+    margin: 0px auto;
+    margin-top: 0px;
 }
 .header a {
     color:white;
@@ -54,4 +59,19 @@ h1 {
 }
 h1 strong {
     color: #026fff;
+}
+.experiencia {
+    border-color:#000000 ;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.escritorio {
+    border-color:#000000 ;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    margin-top: 10px;
 }
