@@ -43,7 +43,8 @@ h1 {
     width: 500px;
 }
 .proyect-imageconteiner{
-    width: 500px;
+    width: 400px;
+    display: flex;
     
 }
 .hero {
@@ -57,7 +58,7 @@ h1 {
 .header {
     background: black;
     color: white;
-    height: 170px;
+    height: 150px;
     margin: 0px;
     padding: 0px;
     display: flex;
