@@ -24,9 +24,18 @@ h1 {
     margin: 0px;
 }
 
+h2 {
+    color: #026fff;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-weight: bold;
+    font-size: 24 px;
+    margin-bottom: 40 px;
+}
 
 .portfolio {
     background:#fafafa;
+    padding: 20px;
 
 }
 
@@ -35,20 +44,26 @@ h1 {
     border-width: 1px;
     border-style: solid;
     border-radius: 20px;
-    margin: 10px 10px;
     padding: 10px 10px;
     background: white;
     display: flex;
-}
-.proyec-details {
-    width: 500px;
+    justify-content: space-between;
 }
 
+.proyect-title {
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.proyect-description {
+    font-size: 17x;
+}
 
 .hero {
-    height: 500px;
+    height: 400px;
     background-image: url('../imagenes/hero.png') ;
-    background-size: 700px 700px;
+    background-size: 600px 500px;
     background-repeat: no-repeat;
     background-position-x: right;
     background-color:#1b2127 ;
@@ -64,6 +79,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-size: 25px;
   
 }
 
@@ -92,10 +108,7 @@ ul{
     justify-content: space-between;
    
 }
-figure {
-    margin: 0px;
-    padding: 0px;
-}
+
 .menu {
     height: inherit;
 }
