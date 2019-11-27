@@ -176,7 +176,7 @@ h1 strong {
     display: flex;
     justify-content: space-between;
     padding: 10px;
-    margin-top: 10px;
+    margin-top: 0px;
 }
 
 .footer a {
@@ -186,4 +186,17 @@ h1 strong {
 
 .footer img {
     vertical-align: middle;
+}
+.contacto {
+    background: rgb(3, 93, 211);
+    color: white;
+    height: 150px;
+    align-items: center;
+    margin-bottom: 0px;
+    
+}
+
+.form-email {
+    padding: 10px;
+    border-radius: 10px;
 }
